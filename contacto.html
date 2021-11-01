@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lautaro Ismael Jimenez">
+    <link rel="icon" href="img/brand.jpg">
+    <title>Calipso accesorios</title>
+    <!-- FONT GREAT VIBES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <!-- FONT ZEN OLD MINCHO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="Styles.css">
+    <!-- JAVASCRIPT -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <nav class="nav-main">
+            <img src="img/brand-logo.png" alt="Calipso accesorios LOGO" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <input type="text">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="content">
+
+            <h1 class="logo">Comunicate con <span>Nosotros</span></h1>
+
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Contactanos</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre completo</label>
+                            <input type="text" id="fullname">
+                        </p>
+                        <p>
+                            <label>Correo electronico</label>
+                            <input type="email" id="email">
+                        </p>
+                        <p>
+                            <label>Celular</label>
+                            <input type="tel" id="phone">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" id="cause">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea id="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <input type="submit" id="submit" onclick="validar()">
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Mas informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Villa Dominico, Avellaneda</li>
+                        <li><i class="fas fa-phone"></i> (011) 15 1111 1111</li>
+                        <li><i class="fas fa-envelope-open-text"></i> contacto@calipso.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus
+                        repellendus?</p>
+                    <p>calipsoaccesorios.com</p>
+                </div>
+            </div>
+
+        </div>
+        <section class="social">
+            <p>Seguinos en nuestras redes</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-contenedor">
+            <ul>
+                <li>
+                    <a href="#" class="footer">
+                        <h3>Navegación</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="footer">Productos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer">Contacto</a>
+                </li>
+                <li>
+                    <a href="#" class="footer">Sobre nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Calipso Accesorios Copyright
+    </footer>
+</body>
